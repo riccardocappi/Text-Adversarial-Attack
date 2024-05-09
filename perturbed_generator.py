@@ -26,6 +26,7 @@ def save_to_file(data, filename):
 
 
 def save_perturbed_metrics(run_results, drive_path=None):
+    os.makedirs('./perturbed_text', exist_ok=True)
     perturbed_examples = []
     attack_success_stats = AttackSuccessRate().calculate(run_results)
     words_perturbed_stats = WordsPerturbed().calculate(run_results)
