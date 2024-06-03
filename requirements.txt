@@ -1,0 +1,12 @@
+scipy==1.11.4
+# torch
+# tensorflow-hub==0.16.1
+# tensorflow-estimator==2.15.0
+# sentence-transformers==2.2.0
+# stanza==1.8.2
+# visdom==0.2.4
+# wandb==0.16.6
+# gensim==4.3.2
+# tensorflow[and-cuda] #==2.15.0
+textattack
+tensorflow-hub
