@@ -1,4 +1,13 @@
 # Text-Adversarial-Attack
+This repo contains the project for the course "Natural Language Processing" of University of Padova. The project consists in implementing 3 different Black-Box Text Adversarial Attacks algorithms, using the library [TextAttack](https://github.com/QData/TextAttack), and evaluating them under various aspects such as attack effectiveness, adversarial semantic coherence, transferability and adversarial training. The considered Adversarial Algorithms are:
+- [BAE: BERT-based Adversarial Examples for Text Classification](https://arxiv.org/pdf/2004.01970)
+- [BESA: BERT-based Simulated Annealing for Adversarial Text Attacks](https://opus.lib.uts.edu.au/bitstream/10453/168857/2/Bert_SA_IJCAI2021.pdf)
+- [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/pdf/1801.04354)
+  
+We performed the experiments in the text classification context againts BERT-based classifiers with high test accuracy downloaded from the HuggingFace hub. The considered datasets, on which the models were pre-trained, are:
+- IMDB
+- Yelp polarity
+- AG News
 
 ## Attack Effectiveness, Semantic Similarity and Transferability
 To replicate our results, it is sufficient to execute the notebook named `adversarial_attacks.ipynb` from the first to the last cell.
